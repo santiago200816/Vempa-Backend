@@ -23,7 +23,7 @@ spring:
 
 vempa:
   jwt:
-    secret: ${JWT_SECRET}
+    secret: ${JWT_SECRET:VmVtcGFBcHBTZWNyZXRLZXlQYXJhUHJvZHVjY2lvbjIwMjY=}
     # Tiempo de vida del token: pasado este tiempo, el token deja de ser válido
     # aunque no se haya cerrado sesión, y el usuario debe volver a loguearse.
     expiracion-minutos: ${JWT_EXPIRACION_MINUTOS:60}
